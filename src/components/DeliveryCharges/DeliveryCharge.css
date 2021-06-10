@@ -1,0 +1,19 @@
+.charge{
+    border: 1px solid grey;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.price{
+    font-size: 22px;
+    font-weight: 650;
+    color: rgb(54, 45, 45);
+}
+
+.charge>p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(24, 24, 26);
+}

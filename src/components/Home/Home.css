@@ -1,0 +1,8 @@
+@media (max-width: 720px) {
+    .email{
+        padding-bottom: 10px;
+    }
+    .header-top{
+        text-align: center;
+    }
+  }

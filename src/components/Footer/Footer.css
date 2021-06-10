@@ -1,0 +1,22 @@
+footer{
+    background-color: rgb(71, 29, 55);
+    color: whitesmoke;
+    padding: 50px 0 0;
+    text-align: center;
+}
+
+.copyright{
+    background-color: rgb(39, 38, 38);
+    padding: 20px 0 5px;
+    font-size: 12px;
+}
+
+.quick-links{
+    text-decoration: none;
+    color: white;
+}
+
+.quick-links:hover{
+    text-decoration: none;
+    color: rgb(102, 206, 33);
+}

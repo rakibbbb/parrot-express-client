@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "picture": "https://www.dls.com.bd/wp-content/uploads/2020/02/Shipping-Delivery.jpg",
+      "title": "P2P",
+      "description": "Whether you need to send your father's reading glasses or surprise you mom with a handwoven shawl, we'll make sure everything moves with flexibility, speed, and accuracy."
+    },
+    {
+        "id": 2,
+        "picture": "https://www.commerce.wa.gov/wp-content/uploads/2020/05/AdobeStock_201087882-scaled.jpeg",
+        "title": "MDS",
+        "description": "We understand the hustle you go through while building your business, we empathise with the nervousness of your very first-order. We are here as your partner with the flexibility to deliver things wherever and whenever you require."
+    },
+    {
+        "id": 3,
+        "picture": "https://freepikpsd.com/wp-content/uploads/2020/01/Cargo-Truck-PNG-High-Quality-Image1.png",
+        "title": "Transport",
+        "description": "When your business needs a little push and you need a mode of transport to reach your customers, we can be of help, no matter how big the shipment or how far the destination."
+    },
+    {
+        "id": 4,
+        "picture": "https://media.istockphoto.com/photos/rows-of-shelves-picture-id1138429558?k=6&m=1138429558&s=612x612&w=0&h=Vp_3KUoOalc0R1VYZwqbZK1g-hsiyg501J_RwJa6kA4=",
+        "title": "Warehouse",
+        "description": "When your dreams exceed the size of your storage, allow us to help. When you need more hands on board, to help with the storing, packaging and delivery of your products, we are there for you."
+    } 
+  ]

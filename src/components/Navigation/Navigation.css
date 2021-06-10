@@ -1,0 +1,23 @@
+.link{
+    text-decoration: none;
+    color: gainsboro;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bg{
+    background-color: rgb(65, 16, 28);
+}
+
+.brand{
+    padding-left: 50px;
+}
+
+@media (max-width: 720px) {
+    .brand{
+        padding-left: 0px;
+    }
+  }

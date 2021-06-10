@@ -1,0 +1,29 @@
+.title-container{
+    background-color: rgb(71, 29, 55);
+    height: 300px;
+}
+
+.title-text{
+    margin: auto;
+}
+
+@media (max-width: 720px) {
+
+    .title-container{
+        height: 360px;
+    }
+  
+    .title-text{
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .title-text h1{
+        font-size: 25px;
+    }
+
+    .titleImg{
+        width: 333px;
+        height: 250px;
+    }
+  }

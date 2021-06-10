@@ -1,0 +1,17 @@
+.coverage{
+    background-color: rgb(71, 19, 51);
+    color: #fff;
+    padding: 50px 0;
+}
+
+@media (max-width: 720px) {
+    .coverage-title{
+        font-size: 27px;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .coverage-slogan{
+        text-align: center;
+        margin-top: 30px;
+    }
+  }

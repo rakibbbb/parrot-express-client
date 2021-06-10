@@ -1,0 +1,27 @@
+.sidebar {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    /* background-image: linear-gradient(40deg, #19d3ae,#0fcfec); */
+    background-color: rgb(134, 23, 156);
+    color: mediumvioletred;
+  }
+  .sidebar-title {
+    margin-bottom: 20px;
+    color: orangered;
+  }
+  .sidebar li {
+    margin-bottom: 2em;
+  }
+  .link-style:hover{
+      color: rgb(231, 227, 0);
+      text-decoration: none;
+      cursor: pointer;
+  }
+  @media only screen and (max-width: 480px) {
+    .sidebar {
+      min-height: 100%;
+    }
+  }
+
+

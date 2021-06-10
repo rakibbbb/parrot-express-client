@@ -1,0 +1,104 @@
+.signin-section{
+    color: #fff;
+	background: rgb(21, 22, 22);
+	font-family: 'Roboto', sans-serif;
+}
+.form-control {
+	font-size: 15px;
+}
+.form-control, .form-control:focus, .input-group-text {
+	border-color: #e1e1e1;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signin-form {
+	width: 400px;
+	margin: 0 auto;
+	padding: 30px 0;		
+}
+.signin-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+.signin-form h2 {
+	color: #333;
+	font-weight: bold;
+	margin-top: 0;
+}
+.signin-form hr {
+	margin: 0 -30px 20px;
+}
+.signin-form .form-group {
+	margin-bottom: 20px;
+}
+.signin-form label {
+	font-weight: normal;
+	font-size: 15px;
+}
+.signin-form .form-control {
+	min-height: 38px;
+	/* box-shadow: none !important; */
+}	
+.signin-form .input-group-addon {
+	max-width: 42px;
+	text-align: center;
+}	
+.signin-form .btn, .signin-form .btn:active {        
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	min-width: 140px;
+}
+
+.google{
+    background:rgb(255, 0, 0) !important;
+}
+.google:hover, .google:focus{
+    background: rgb(199, 2, 2) !important;
+}
+.facebook{
+    background:rgb(31, 93, 209) !important;
+}
+.facebook:hover, .google:focus{
+    background: rgb(1, 73, 182) !important;
+}
+.signin-form a {
+	color: #fff;	
+	text-decoration: underline;
+}
+.signin-form a:hover {
+	text-decoration: none;
+}
+.signin-form form a {
+	color: #19aa8d;
+	text-decoration: none;
+}	
+.signin-form form a:hover {
+	text-decoration: underline;
+}
+.signin-form .fa {
+	font-size: 21px;
+}
+.signin-form .fa-paper-plane {
+	font-size: 18px;
+}
+.signin-form .fa-check {
+	color: #fff;
+	left: 17px;
+	top: 18px;
+	font-size: 7px;
+	position: absolute;
+}
+
+.signIn{
+	width: 400px;
+	height: 200px;
+	background-color: rgb(70, 63, 63);
+	padding: 30px;
+	border-radius:10px;
+}
