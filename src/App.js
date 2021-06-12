@@ -23,6 +23,7 @@ import BookingList from "./components/Dashboard/BookingList/BookingList";
 import MakeManager from "./components/Dashboard/MakeManager/MakeManager";
 import AdminDashboard from "./components/Dashboard/AdminDashboard/AdminDashboard";
 import ManagerDashboard from "./components/Dashboard/ManagerDashboard/ManagerDashboard";
+import Tracking from "./components/Tracking/Tracking";
 
 
 
@@ -86,6 +87,9 @@ function App() {
               </Route>
               <Route exact path="/home">
                 <Home />
+              </Route>
+              <Route exact path="/tracking">
+                <Tracking />
               </Route>
               <Route exact path="/coverage-map">
                 <CoverageMap />

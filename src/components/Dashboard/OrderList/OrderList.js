@@ -79,7 +79,6 @@ const OrderList = () => {
                                                         <td data-label="Status"><select name="status" id="order-status" onChange={()=>handleStatus(order._id)} defaultValue={order.status}>
                                                                 <option value="Pending">Pending</option>
                                                                 <option value="Confirm">Confirm</option>
-                                                                <option value="Processing">Processing</option>
                                                                 <option value="Picked">Picked</option>
                                                                 <option value="Delivered">Delivered</option>
                                                                 <option value="Cancel">Cancel</option>

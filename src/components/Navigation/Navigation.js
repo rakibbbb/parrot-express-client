@@ -17,6 +17,7 @@ const Navigation = () => {
         <Nav className="ml-auto pr-5">
           <Nav.Link href="/home"><Link to="/home" className="link">Home</Link></Nav.Link>
           <Nav.Link href="/dashboard"><Link to="/dashboard" className="link">Dashboard</Link></Nav.Link>
+          <Nav.Link href="/tracking"><Link to="/tracking" className="link">Tracking</Link></Nav.Link>
           <Nav.Link href="/coverage-map"><Link to="/coverage-map" className="link">Coverage Map</Link></Nav.Link>
           {/* <Nav.Link href="/reviews"><Link to="/reviews" className="link">Reviews</Link></Nav.Link> */}
           <Nav.Link href="/about"><Link to="/about" className="link">About</Link></Nav.Link>
