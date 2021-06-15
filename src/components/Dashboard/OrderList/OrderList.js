@@ -61,7 +61,7 @@ const OrderList = () => {
                     <table>
                         <thead>
                             <tr>
-                                <th scope="col">Order Id</th>
+                                <th scope="col">Invoice Number</th>
                                 <th scope="col">Name</th>
                                 {/* <th scope="col">Email</th> */}
                                 <th scope="col">Date</th>
@@ -80,8 +80,9 @@ const OrderList = () => {
                                                                 <option value="Pending">Pending</option>
                                                                 <option value="Confirm">Confirm</option>
                                                                 <option value="Picked">Picked</option>
+                                                                <option value="Shiped">Shiped</option>
                                                                 <option value="Delivered">Delivered</option>
-                                                                <option value="Cancel">Cancel</option>
+                                                                {/* <option value="Cancel">Cancel</option> */}
                                                             </select></td>
                                                         <td data-label="Action"> <p style={{ cursor: 'pointer' }} onClick={() => handleDelete(order._id)}><FontAwesomeIcon icon={faTrashAlt} /></p></td>
                                                      </tr>)

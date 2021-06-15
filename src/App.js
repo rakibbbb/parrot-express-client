@@ -34,7 +34,7 @@ export const UserContext3 = createContext();
 
 function App() {
   const [loggedInUser, setLoggedInUser] = useState({});
-  let { name, email, token } = loggedInUser;
+  let { email } = loggedInUser;
   const [isAdmin, setIsAdmin] = useState(false);
   const [isManager, setIsManager] = useState(false);
   const userEmail = sessionStorage.getItem('userEmail');

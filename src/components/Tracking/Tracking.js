@@ -13,9 +13,9 @@ const Tracking = () => {
     }
 
     return (
-        <section className="container" style={{ height: "300px"}}>
+        <section className="container" style={{ height: "600px"}}>
             <div className="pt-5 m-auto" style={{ width: "500px"}}>
-                <input className="input-group" ref={textInput} placeholder="Type a message..." />
+                <input className="input-group" ref={textInput} placeholder="Type your order id..." />
                 <div className="text-center">
                     <button className="btn btn-success mt-1" onClick={handleClick}>TRACK</button>
                 </div>

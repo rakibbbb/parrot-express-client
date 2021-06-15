@@ -82,11 +82,11 @@ const Book = () => {
                         <form id="myForm" onSubmit={handleSubmit(onSubmit)} className='mt-5'>
                             <label className='input-label'>Name</label>
                             <br />
-                            <input className='input-style' defaultValue={name} name="name" {...register("name")} required/>
+                            <input className='input-style' defaultValue={name} name="name" {...register("name")} required readOnly/>
                             <br />
                             <label className='input-label'>Email</label>
                             <br />
-                            <input className='input-style' defaultValue={email} name="email" {...register("email")} required/>
+                            <input className='input-style' defaultValue={email} name="email" {...register("email")} required readOnly/>
                             <br />
                             <label className='input-label'  >Phone Number</label>
                             <br />
