@@ -13,7 +13,7 @@ const Tracking = () => {
     }
 
     return (
-        <section className="container" style={{ height: "600px"}}>
+        <section className="container" style={{ height: "auto", marginBottom: "100px"}}>
             <div className="pt-5 m-auto" style={{ width: "500px"}}>
                 <input className="input-group" ref={textInput} placeholder="Type your order id..." />
                 <div className="text-center">

@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
+import Pdf from "react-to-pdf";
+
+const ref = React.createRef();
 
 const TrackingDetails = (props) => {
     // const [progress, setProgress] = useState(0);
     const booking = props.booking[0];
 
-    const {_id, category, date, deliveryAddress, email, delivery, name, phone, pickupAddress, status , totalCost, weight} = booking;
+    const { _id, category, date, deliveryAddress, email, name, phone, pickupAddress, status, totalCost, weight } = booking;
     // console.log(booking);
     // let status = booking.status;
     // console.log(status);
@@ -32,10 +35,9 @@ const TrackingDetails = (props) => {
     }
 
     return (
-        <section className="container mt-5" style={{ width: "70%"}}>
+        <section className="container mt-5" style={{ width: "70%" }}>
             <div>
-                <h5>Invoice Number: {_id} </h5>
-                <h5>Name: {name}</h5>
+                <h5>Order Id: {_id} </h5>
             </div>
             <div>
                 <div style={{ width: "86% " }}>
@@ -52,6 +54,55 @@ const TrackingDetails = (props) => {
                     <div className="d-inline-block" style={{ width: "20%" }}>Delivered</div>
                 </div>
             </div>
+            <div className="pl-5 pt-5" ref={ref}>
+                <h5>Invoice# {_id}</h5>
+                <h6>Date# {date}</h6>
+                <hr></hr>
+                <h5>Contact Information</h5>
+                <h6><strong>Name:</strong> {name}</h6>
+                <h6><strong>Email:</strong> {email}</h6>
+                <h6><strong>Phone:</strong> {phone}</h6>
+                <hr />
+                <div className="row">
+                    <div className="col-lg-6">
+                        <h5>Pickup Address</h5>
+                        <hr />
+                        <h6>{pickupAddress}</h6>
+                    </div>
+                    <div className="col-lg-6">
+                        <h5>Delivery Address</h5>
+                        <hr />
+                        <h6>{deliveryAddress}</h6>
+                    </div>
+                </div>
+                <div className="mb-5">
+                    <table class="table table-striped mt-5 mb-5">
+                        <thead>
+                            <tr>
+                                <th scope="col">Product Category</th>
+                                <th scope="col">Weight (kg)</th>
+                                <th scope="col">Price (Taka)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>{category}</td>
+                                <td>{weight} kg</td>
+                                <td>{totalCost} Taka</td>
+                            </tr>
+                            <tr>
+                                <td><strong></strong></td>
+                                <td><strong>Total Cost</strong></td>
+                                <td>{totalCost} Taka</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p className="text-center mt-5"><small>**This is computer generated invoice, no signature required.**</small></p>
+            </div>
+            <Pdf targetRef={ref} filename="invoice.pdf">
+                {({ toPdf }) => <button className="btn btn-dark btn-block pl-5 ml-4" onClick={toPdf}>Download Invoice</button>}
+            </Pdf>
         </section>
     );
 };
